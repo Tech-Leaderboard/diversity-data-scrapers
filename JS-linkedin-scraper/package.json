@@ -1,0 +1,17 @@
+{
+  "name": "js-linkedin-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape-linkedin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3-dsv": "^1.0.8",
+    "linkedin-scraper2": "^2.0.0",
+    "nightmare": "^2.10.0",
+    "node-linkedin": "^0.5.6"
+  }
+}
