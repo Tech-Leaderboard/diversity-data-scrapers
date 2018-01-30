@@ -20,7 +20,6 @@ nightmare
 	.goto('https://www.linkedin.com/search/results/people/?keywords=Artificial%20Intelligence&origin=SWITCH_SEARCH_VERTICAL&page=2')
 	.wait('.search-result__info')
 	.evaluate(function() {
-
 		var element = $('div.search-result__info a:first').attr('href');
 		return element;
 		//console.log("Element: " + element);
@@ -47,11 +46,11 @@ function extract(nightmare, profile) {
     var data = {
       "name" : name,
       "company" : company.trim(),
+      "url" : profile
     };
 		return data;
 		//console.log("Element: " + element);
 	}).then(function(result){
       console.log(result);
   })
-
 }
