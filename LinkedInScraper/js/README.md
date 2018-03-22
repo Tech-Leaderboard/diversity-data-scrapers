@@ -1,11 +1,9 @@
 Usage: 
 
-Standard:
-
+Standard:  
 node search.js emailid password Artificial\ Intelligence
 
-Optional PageNumber:
+Optional PageNumber:  
+node search.js emailid password Artificial\ Intelligence 10  
 
-node search.js emailid password Artificial\ Intelligence 10
-
-The last number 10 indicates the page number from which it will start scraping. 
+The last number 10 indicates the page number from which it will start scraping
